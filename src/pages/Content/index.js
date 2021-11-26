@@ -1,2 +1,5 @@
-console.log('Content script works!');
-console.log('Must reload extension for modifications to take effect.');
+import React from 'react';
+import { render } from 'react-dom';
+import Content from "./Content"
+
+render(<Content />, document.querySelector('#content'));

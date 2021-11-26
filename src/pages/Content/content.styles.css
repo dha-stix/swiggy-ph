@@ -1,0 +1,70 @@
+.app {
+  margin: 0;
+  width: 600px;
+  height: 100vh;
+  background-color: #f2f0f1;
+  padding: 20px 30px;
+  position: fixed;
+  inset: 0;
+  z-index: 10000;
+  display: flex;
+  flex-direction: column;
+}
+.popup {
+  width: 400px;
+  padding: 30px 20px;
+  text-overflow: ellipsis;
+  border-radius: 20px;
+  background-color: #fff;
+  position: absolute;
+  top: 20px;
+  margin-bottom: 30px;
+}
+.header__title {
+  font-weight: 600;
+}
+.header__title,
+.timer,
+.timer__info,
+.tab:hover {
+  background: linear-gradient(red, orange);
+  background: -webkit-linear-gradient(red, orange);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.popup__header,
+.popup__timer {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+.popup__header {
+  margin-bottom: 30px;
+}
+.header__icons {
+  display: flex;
+  align-items: center;
+}
+.tab {
+  margin-right: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+.tab p {
+  margin-top: -1px;
+}
+.timer {
+  font-size: 50px;
+}
+.timer__info {
+  font-size: 20px;
+}
+
+.app-header {
+  width: 100%;
+}
